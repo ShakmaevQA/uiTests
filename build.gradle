@@ -10,9 +10,14 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation platform('org.junit:junit-bom:5.11.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
     testImplementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
+    testImplementation 'com.typesafe:config:1.4.3'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.3'
+
+
 }
 
 test {
